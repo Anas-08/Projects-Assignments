@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* height: 130vh; */
+    background-image: url('../asset/bg.png');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+  
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    
+}
+
+
+header{
+    /* margin-top: 1%; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+
+    background-color: black;
+    color: white;
+    height:55px;
+    
+}
+header hr{
+    color: black;
+    height: 22px;
+    width: 2px;
+
+    /* position: relative;
+    left: -180px; */
+
+    position: relative;
+    left: 6%;
+
+}
+header span a{
+    text-decoration: none;
+    /* color: black; */
+    color: white;
+    
+}
+
+.menu li{
+    list-style-type: none;
+
+
+
+}
+.menu li a{
+    
+    text-decoration: none;
+    /* color: black; */
+    color: white;
+}
+.menu li a:hover{
+    text-decoration:underline;
+    /* color: black; */
+    color: white;
+    
+}
+
+header span{
+    display: flex;
+
+    position: relative;
+    left: 4%;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+
+    
+    position: relative;
+    left: 8%;
+
+}
+
+.btn{
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    font-style: 18px;
+    font-weight: 600;
+    width: fit-content;
+    
+    cursor: pointer;
+    
+
+}
+.btn:hover{
+    background-color: rgb(43, 108, 213);
+    color: white;
+    
+}
+
+header button{
+    position: absolute;
+    left: 85%;
+}
+
+.content{
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100vw;
+
+    color: white;
+}
+.up_content{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* line-height: 12px; */
+
+}
+
+.up_content h2{
+   
+    font-size: 3rem;
+    font-weight: 600;
+
+    width: 50%;
+    text-align: center;
+    /* align-items: center; */
+
+    margin-bottom: 2%;
+}
+.up_content p{
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+
+ }
