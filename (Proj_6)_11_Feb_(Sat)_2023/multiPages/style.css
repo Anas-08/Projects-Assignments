@@ -1,0 +1,156 @@
+
+html{
+    font-size: 10px;
+}
+/* background color of body */
+body{
+    
+    background-color: rgb(215 233 220 / 62%);
+    /* background: url('./images/stethoscope.png'), rgb(215 233 220 / 62%); */
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* navbar li */
+navbar li{
+    list-style-type: none;
+}
+
+/* navbar anchor tag */
+navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+/* navbar anchor tag hover effect */
+.menu li a:hover{
+    text-decoration: underline;
+    
+}
+
+/* navbar  */
+navbar nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+
+
+
+.container{
+
+    /* margin: 4rem auto; */
+    display: flex;
+    align-items: center;
+    /* gap: 15rem; */
+    justify-content: space-between;
+
+    width: 50%;
+    height: 75vh;
+}
+
+.left_content{
+    /* padding: 0rem 5rem; */
+    margin-left: 5%;
+
+    position: relative;
+    /* width: 50%; */
+    
+
+    /* display: flex;  
+    flex-direction: column; */
+    /* align-items: center; */
+
+}
+.topangle{
+    width: 25px;
+}
+
+.left_content h2{
+    font-size: 3rem;
+    position: relative;
+}
+
+.left_content p{
+    font-size:1.4rem;
+    /* opacity: 2; */
+    color: #7c7c7c;
+    margin: 20px 0;
+
+}
+.bottomangle{
+    width: 25px;
+    position: absolute;
+    right: 25px;
+}
+.stethoscope{
+    position: absolute;
+    width: 80%;
+    top: -60px;
+    right: -25px;
+    z-index: -1;
+}
+.mouse{
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 30px;
+}
+.btn{
+    background-color: rgb(98, 149, 98);
+    color: white;
+    border: none;
+    border-radius: 3rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.6em;
+    
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #20bc7e;
+
+}
+
+
+
+.greenbox,
+.yellowbox{
+    position: absolute;
+    right: 0;
+}
+
+.greenbox{
+    width: 35%;
+    bottom: 30px;
+}
+
+.yellowbox{
+    width: 35%;
+    bottom: 30px;
+}
+
+.doctor{
+    position: absolute;
+    right: 10px;
+    bottom:0;
+    height: 90%;
+}
+/* .right_content{
+    /* background:url('./images/greenBox.png'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 60%; */
+    /* width: 50%; */
+/* } */
+/* .right_content img{ */
+    /* width: 50%; */
+/* } */ */
